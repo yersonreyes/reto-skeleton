@@ -1,0 +1,86 @@
+.skeleton.card{
+    display: flex;
+    gap: 1rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    inline-size: 21.4rem ;
+    block-size: 9.25rem;
+    background: var(--white);
+    border-radius: .75rem;
+    animation: flash steps(50) 0.5s infinite;
+}
+
+.skecard-img{
+    inline-size: 5.3rem ;
+    block-size: 7.25rem;
+    border-radius: .5rem;
+    background: var(--skeleton);
+}
+
+.skecard-content{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.skecard-content-line{
+    margin: 0;
+    block-size: 1.125rem;
+    inline-size: 10.5rem;
+    background: var(--skeleton);
+    border-radius: .25rem;
+}
+
+.skecard-content-line2{
+    margin: 0;
+    block-size: 1.125rem;
+    inline-size: 9rem;
+    background: var(--skeleton);
+    border-radius: .25rem;
+}
+
+.skecard-content-line3{
+    margin: 0;
+    block-size: 1.125rem;
+    inline-size: 11.5rem;
+    background: var(--skeleton);
+    border-radius: .25rem;
+}
+
+.skecard-user{
+    margin-block-start: .8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.circle{
+    block-size: 1rem;
+    inline-size: 1rem;
+    background: var(--skeleton);
+    border-radius: 50%;
+}
+
+.line{
+    block-size: .5rem;
+    inline-size: 5rem;
+    background: var(--skeleton);
+    border-radius: .125rem;
+}
+
+.line2{
+    block-size: .5rem;
+    inline-size: 4rem;
+    background: var(--skeleton);
+    border-radius: .125rem;
+}
+
+@keyframes flash {
+    0% {
+        opacity: .9;
+    }
+  
+    100% {
+        opacity: .2;
+    }
+  }

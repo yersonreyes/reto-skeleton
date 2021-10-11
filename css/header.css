@@ -1,0 +1,29 @@
+.header{
+    background: var(--white);
+    block-size: 8.375rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    background: var(--white);
+    block-size: 8.375rem;
+}
+
+.logo img{
+    block-size: 5rem;
+    inline-size: 5rem;
+}
+
+.logo span{
+    color: var(--title);
+    text-transform: uppercase;
+    font: var(--fontTitle);
+}
+
+
+.logo.loading{
+    display: none;
+}

@@ -1,0 +1,38 @@
+.skeleton.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    background: var(--white);
+    block-size: 8.375rem;
+    animation: flash steps(50) 0.5s infinite;
+}
+
+.skeleton.logo i{
+    block-size: 5rem;
+    inline-size: 5rem;
+    background: var(--skeleton);
+}
+
+.skeleton.logo span{
+    block-size: 1.25rem;
+    inline-size: 11.5rem;
+    background: var(--skeleton);
+    border-radius: .25rem;
+}
+
+.skeleton.logo.loading{
+    display: none;
+}
+
+
+
+@keyframes flash {
+    0% {
+        opacity: .9;
+    }
+  
+    100% {
+        opacity: 0;
+    }
+  }

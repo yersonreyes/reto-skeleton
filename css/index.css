@@ -1,0 +1,26 @@
+@import './header.css';
+@import './skeleton.css';
+@import './skeleton-card.css';
+@import './card.css';
+@import './container.css';
+
+:root {
+  --black: #000000; 
+  --grey: #787878; 
+  --skeleton: #C4C4C4;
+  --white: #ffffff; 
+  --bg: #ECF0F1 ;
+  --title: #0A004E;
+  --basefontFamily: 'Raleway';
+  --fontTitle: bold 18px/28px var(--basefontFamily);
+  --fontUser: normal 12px/14px var(--basefontFamily);
+  
+
+}
+
+body {
+  margin: 0;
+  color: var(--black);
+  background-color: var(--bg);
+}
+
